@@ -1,15 +1,19 @@
 console.clear()
 var ttSel = d3.select('body').selectAppend('div.tooltip.tooltip-hidden')
 
-var teams = 'DK RNG PSG MAD C9 PGG'.split(' ')
+var teams = 'BYG CFO DCG DWT FAK IMP JT MFT PSG S9'.split(' ')
 
 var teamText = {
-  PSG: `One win and PSG at least ties.`,
-  DK: `One win guarantees advancement.`, 
-  RNG: `Cannot be eliminated without a tiebreaker.`,
-  MAD: `MAD beating only C9 gets them a tiebreaker.`,
-  C9: `Even with a perfect run, C9 can still be eliminated.`,
-  PGG: `PGG needs the stars to align.`,
+  BYG: `test.`,
+  CFO: `test.`,
+  DCG: `test.`,
+  DWT: `test.`,
+  FAK: `test.`,
+  IMP: `test.`,
+  JT: `test.`,
+  MFT: `test.`,
+  PSG: `test.`,
+  S9: `test.`,
 }
 
 d3.keys(teamText).forEach(d => {
